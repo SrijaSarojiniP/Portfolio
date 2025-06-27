@@ -1,0 +1,63 @@
+/* Demo.css */
+.demo-container {
+  padding: 40px;
+  text-align: center;
+  background-color: #f0f8ff; /* Light pastel background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the section */
+}
+
+.demo-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.workflow-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+  gap: 30px; /* Increased gap between images */
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.workflow-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workflow-step img {
+  width: 250px; /* Increased image size from 200px to 250px */
+  height: 250px; /* Increased height */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for better visibility */
+}
+
+.workflow-step p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Add hover effect to images */
+.workflow-step:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Make the layout responsive for smaller screens */
+@media (max-width: 768px) {
+  .workflow-images {
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .workflow-images {
+    grid-template-columns: 1fr; /* 1 image per row for very small screens */
+  }
+}

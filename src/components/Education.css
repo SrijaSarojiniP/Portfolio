@@ -1,0 +1,90 @@
+/* Updated Education Section */
+.education-section {
+  background-color: #eaf6f6; /* Light pastel blue background */
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title with full cursive font */
+.education-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #1e4a73;
+  margin-bottom: 30px;
+}
+
+/* Compact Layout */
+.education-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Sidebar */
+.education-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Sidebar Buttons */
+.sidebar-button {
+  background: #9ac5e3; /* Soft pastel button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Dancing Script', cursive; /* Cursive font for buttons */
+  text-align: left;
+}
+
+.sidebar-button.active {
+  background: #1e4a73; /* Active state with darker blue */
+  color: #ffffff;
+}
+
+.sidebar-button:hover {
+  transform: translateY(-3px);
+  background: #2c7da0; /* Slightly darker hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Box */
+.education-content {
+  flex: 1;
+  max-width: 500px;
+  background-color: #ffffff;
+  border: 3px solid #1e4a73;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive; /* Cursive font for headings */
+  color: #1e4a73;
+  margin-bottom: 10px;
+}
+
+.content-location,
+.content-subject,
+.content-description {
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.content-description {
+  line-height: 1.6;
+}

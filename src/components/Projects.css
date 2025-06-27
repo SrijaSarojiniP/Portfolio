@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.projects-section {
+  padding: 50px 20px;
+  background-color: #eaf6f6; /* Pastel blue background */
+  color: #4d4d4d; /* Neutral dark text for contrast */
+  min-height: 100vh;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 2.5rem; /* Increased font size for project title */
+  color: #000080; /* Navy blue for MediConnect */
+  margin-bottom: 10px;
+  font-family: 'Dancing Script', cursive; /* Cursive font */
+  text-transform: capitalize; /* Optional */
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #ffffff; /* White background for the card */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3); /* Pastel blue shadow */
+  width: 90%;
+  max-width: 900px;
+  align-items: center;
+}
+
+.project-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image {
+  width: 80%; /* Adjust the size of the logo */
+  max-width: 200px; /* Ensure it remains compact */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(74, 144, 226, 0.5); /* Subtle shadow */
+}
+
+.project-right {
+  flex: 2;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #4a90e2; /* Deep pastel blue */
+  text-shadow: 1px 1px 3px rgba(74, 144, 226, 0.4); /* Subtle glowing effect */
+  font-family: 'Dancing Script', cursive; /* Applying Dancing Script font */
+}
+
+
+.project-tech-stack,
+.project-description {
+  font-size: 1rem;
+  color: #4d4d4d; /* Neutral dark text for readability */
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.project-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff; /* White text for contrast */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.demo-button {
+  background-color: #4a90e2; /* Deep pastel blue for Demo */
+}
+
+.github-button {
+  background-color: #7fc8f8; /* Light pastel blue for GitHub */
+}
+
+.project-button:hover {
+  transform: scale(1.05);
+  background-color: #357ab8; /* Slightly darker blue on hover */
+  opacity: 0.9;
+}

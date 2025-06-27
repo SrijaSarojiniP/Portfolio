@@ -1,0 +1,50 @@
+.certifications-container {
+  padding: 50px;
+  background-color: #f0f8ff; /* Light blue background */
+  text-align: center;
+}
+
+.certifications-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #3498db;
+}
+
+.certificates-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 certificates per row */
+  gap: 40px;
+  justify-items: center;
+  padding: 0 20px;
+}
+
+.certificate-item {
+  width: 250px;  /* Set a fixed width for consistency */
+  height: 300px; /* Fixed height to maintain uniform size */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.certificate-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  /* Ensure the image fits without cutting */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-heading {
+  font-size: 1.5rem;
+  color: #3498db;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .certificates-list {
+    grid-template-columns: 1fr; /* Stack the certificates vertically on smaller screens */
+  }
+
+  .certificate-item {
+    width: 90%;  /* Adjust the width to fit smaller screens */
+  }
+}

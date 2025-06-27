@@ -1,0 +1,65 @@
+/* General Styles for the Contact Page */
+.contact-section {
+  background-color: #f0f9ff;
+  padding: 60px 0;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: #3e72a4; /* Darker pastel blue */
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-item {
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #3e72a4; /* Darker pastel blue */
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.contact-item p {
+  color: #4a4a4a;
+}
+
+.contact-item a {
+  color: #3e72a4;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}

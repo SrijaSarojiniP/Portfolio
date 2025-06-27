@@ -1,0 +1,106 @@
+/* About Page Styling */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f0f8ff; /* Light pastel blue background */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated Font */
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px; /* Added padding to the content */
+}
+
+.about-image {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: -20px; /* Move image 2cm to the left */
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+}
+
+.about-image img {
+  width: 70%; /* Adjust image size for better alignment */
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #1e90ff; /* Pastel blue border for the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-text-section {
+  flex: 2;
+  text-align: left;
+  max-width: 700px; /* Limiting the text section width */
+}
+
+.about-header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #7fbfff; /* Darker pastel blue for the header */
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif; /* Elegant font for header */
+  transition: transform 0.3s ease;
+}
+
+.about-header:hover {
+  transform: scale(1.05); /* Slightly scale the header when hovered */
+}
+
+.about-text {
+  font-size: 1.3rem;
+  color: #333; /* Dark text for readability */
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif; /* Clean sans-serif font for text */
+}
+
+.download-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background-color: #3498db; /* Blue color */
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-resume-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+.download-resume-btn svg {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+/* Adding animation effects for text sections */
+.about-text-section .about-header, 
+.about-text-section .about-text {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
