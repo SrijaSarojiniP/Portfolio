@@ -25,7 +25,7 @@ const Introduction = () => {
       setCurrentLineIndex((prevIndex) => (prevIndex + 1) % lines.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [lines.length]); // ✅ include dependency to satisfy eslint
 
   return (
     <section id="home" className="introduction">
