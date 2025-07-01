@@ -73,7 +73,7 @@ const Skills = () => {
             <div className="coding-profile-container">
               <FaCode
                 className="coding-icon"
-                onClick={() => window.open("https://leetcode.com/your-profile", "_blank")}
+                onClick={() => window.open("https://leetcode.com/u/SrijaSarojiniP/", "_blank")}
                 title="Visit Coding Profile"
               />
               <p className="leetcode-heading">LeetCode Profile</p>
