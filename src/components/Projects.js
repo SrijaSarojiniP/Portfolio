@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom"; // Import Link for routing
 import projectImage from "../assets/mediconnect.jpg"; // Your project image
-import mushroomLogo from "../assets/Mushroom_logo.png"; 
+import mushroomLogo from "../assets/logos/Mushroom_logo.png"; 
 import "./Projects.css";
 
 const Projects = () => {
