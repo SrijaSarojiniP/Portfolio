@@ -2,12 +2,12 @@ import React from "react";
 import "./Demo.css";
 
 // mushroom workflow images
-import mush1 from "../assets/mush_step1.png";
-import mush2 from "../assets/mush_step2.png";
-import mush3 from "../assets/mush_step3.png";
-import mush4 from "../assets/mush_step4.png";
+import m1 from "../assets/m1.jpg";
+import m2 from "../assets/m2.jpg";
+import m3 from "../assets/m3.jpg";
+import m4 from "../assets/m4.jpg";
 
-const images = [mush1, mush2, mush3, mush4];   // add more if you have them
+const images = [m1, m2, m3, m4];   // add more if you have them
 
 const MushroomDemo = () => (
   <div className="demo-container">
