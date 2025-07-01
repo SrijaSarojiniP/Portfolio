@@ -41,11 +41,12 @@ const About = () => {
             transition={{ delay: 0.5 }}
             className="about-text"
           >
-            Hello! I'm Srija Sarojini Polimati, 
-            I am fluent in programming languages like Python, Java, and C.
-            My field of interest is building Full Stack and Machine Learning projects, 
-            and I am also interested in Artificial Intelligence. In my downtime, I enjoy 
-            hobbies such as painting, gardening, and singing.
+            "Hi! I'm Srija Sarojini Polimati.
+            I'm currently learning and developing my skills in programming languages like Python, Java, and C.
+            My primary interests lie in building Full Stack and Machine Learning projects,
+            and I'm also exploring Artificial Intelligence.
+            Outside of coding, I enjoy painting, gardening, and singing."
+            
           </motion.p>
 
           {/* Download Resume Button */}
