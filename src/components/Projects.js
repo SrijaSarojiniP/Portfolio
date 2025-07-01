@@ -21,10 +21,10 @@ const Projects = () => {
     image: projectImage, // replace with your mushroom-project image
     techStack: "Python (Pandas, Scikit-learn, Flask), Random Forest",
     description:
-      "ML model that predicts whether a mushroom is poisonous or edible from user-entered features.", :contentReference[oaicite:0]{index=0}
+      "ML model that predicts whether a mushroom is poisonous or edible from user-entered features.", 
     demoLink: "/mushroom-demo",        // route to your demo page
     gitHubLink: "https://github.com/SrijaSarojiniP/Mushrom_Classification",
-  },
+  }
   ];
 
   return (
