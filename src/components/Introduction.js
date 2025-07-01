@@ -16,7 +16,7 @@ const Introduction = () => {
   const lines = [
     "Student at SVECW '26",
     "Computer Science and Engineering",
-    "Full Stack Developer",
+    // "Full Stack Developer",
   ];
   const [currentLineIndex, setCurrentLineIndex] = useState(0);
 

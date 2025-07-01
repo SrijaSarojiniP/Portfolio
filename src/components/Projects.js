@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom"; // Import Link for routing
 import projectImage from "../assets/mediconnect.jpg"; // Your project image
+import mushroomLogo from "../assets/Mushroom_logo.png"; 
 import "./Projects.css";
 
 const Projects = () => {
@@ -18,11 +19,11 @@ const Projects = () => {
     },
     {
     title: "Mushroom Toxicity Classifier",
-    image: projectImage, // replace with your mushroom-project image
+    image: mushroomLogo, // replace with your mushroom-project image
     techStack: "Python (Pandas, Scikit-learn, Flask), Random Forest",
     description:
       "ML model that predicts whether a mushroom is poisonous or edible from user-entered features.", 
-    demoLink: "/mushroom-demo",        // route to your demo page
+    demoLink: "/mushdemo",        // route to your demo page
     gitHubLink: "https://github.com/SrijaSarojiniP/Mushrom_Classification",
   }
   ];
